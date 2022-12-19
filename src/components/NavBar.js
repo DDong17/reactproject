@@ -1,9 +1,9 @@
 import { useState, useEffect} from "react"
 import { Navbar,Container,Nav } from "react-bootstrap"
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/navIcon1.svg';
-import navIcon2 from '../assets/img/navIcon2.svg';
-import navIcon3 from '../assets/img/navIcon3.svg';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
 
 
 export const NavBar = () => {
@@ -27,8 +27,8 @@ export const NavBar = () => {
     return (
         <Navbar  expand="lg" className={scrolled ?"scrolled":""}>
             <Container>
-                <Navbar.Brand href="#home">
-                    <img src={''} alt="Logo"/>
+                <Navbar.Brand href="/">
+                    <img src={logo} alt="Logo"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" >
                     <span className="navbar-toggler-icon"></span>
