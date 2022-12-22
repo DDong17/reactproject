@@ -1,5 +1,5 @@
 import {Col} from "react-bootstrap";
-
+//카드 이미지 생성
 export const ProjectCard = ({title,description,imgUrl}) =>{
     return(
         <Col sm={6} md={4}>
