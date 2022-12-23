@@ -38,14 +38,79 @@ export const Projects = () => {
             description: "Design & Development",
             imgUrl: projImg3,
         },
-    ];
+    ]
+
+    const projects2 = [
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg1,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg3,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg1,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg3,
+        },
+    ]
+    const projects3 = [
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg1,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg3,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg1,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Business Startup",
+            description: "Design & Development",
+            imgUrl: projImg3,
+        },
+    ]
 
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
+                        <h2>PhotoCard</h2>
                         <p>여기다가 아무거나 기입</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -78,8 +143,34 @@ export const Projects = () => {
                                         }
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey={"second"}>아무거나</Tab.Pane>
-                                <Tab.Pane eventKey={"third"}>아무거나</Tab.Pane>
+                                <Tab.Pane eventKey={"second"}>
+                                    <Row>
+                                        {
+                                            projects2.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey={"third"}>
+                                    <Row>
+                                        {
+                                            projects3.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
+                                                )
+                                            })
+                                        }
+                                    </Row>
+                                </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
                     </Col>

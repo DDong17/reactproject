@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { Col, Container } from "react-bootstrap";
+import { Col, Container,Row } from "react-bootstrap";
+import contactImg from "../assets/img/contact-img.svg";
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -44,8 +45,10 @@ const handleSubmit= async (e)=>{
 
 return (
     <section className="contact" id="connect">
+        
         <Container>
             <Row className="align-items-center">
+                <h2>Email</h2>
                 <Col md={6}>
                     <img src={contactImg} alt="Contact Us" />
                 </Col>

@@ -2,12 +2,13 @@
 import { Col, Container,Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import BTS from "../assets/img/BTS.png";
+import BLACKPINK from "../assets/img/BLACKPINK.png";
+import Idle from "../assets/img/Idle.png";
+import NEWJEANS from "../assets/img/NEWJEANS.png";
 
-export const Skills = () => {
+export const Groups = () => {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -29,31 +30,31 @@ export const Skills = () => {
     };
 
     return (
-        < section className="skill" id="skills">
+        < section className="gruops" id="groups">
             <Container >
                 <Row>
                     <Col>
-                        <div className="skill-bx">
+                        <div className="gruops-bx">
                             <h2>
-                                Skills
+                                Groups
                             </h2>
                             <p>아무거나</p>
-                            <Carousel responsive={responsive} infinite={true} className ="skill-slider">
+                            <Carousel responsive={responsive} infinite={true} className ="gruops-slider">
                                 <div className="item">
-                                <img src={meter1} alt="Image"/>
-                                <h5>Web Development</h5>
+                                <img src={BTS} alt="Image"/>
+                                <h5>BTS(방탄소년단)</h5>
                                 </div>
                                 <div className="item">
-                                <img src={meter2} alt="Image"/>
-                                <h5>Brand identity</h5>
+                                <img src={BLACKPINK} alt="Image"/>
+                                <h5>BLACKPINK</h5>
                                 </div>
                                 <div className="item">
-                                <img src={meter3} alt="Image"/>
-                                <h5>Logo Design</h5>
+                                <img src={NEWJEANS} alt="Image"/>
+                                <h5>뉴진스</h5>
                                 </div>
                                 <div className="item">
-                                <img src={meter1} alt="Image"/>
-                                <h5>Web Development</h5>
+                                <img src={Idle} alt="Image"/>
+                                <h5>(여자)아이들</h5>
                                 </div>
                             </Carousel>
                         </div>
