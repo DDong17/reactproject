@@ -40,6 +40,7 @@ export const NavBar = () => {
                         <Nav.Link href="#groups"className={activeLink==='groups'?'active navbar-link':'navbar-link'}onClick={()=> onUpdateActiveLink('groups')}>Groups</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Video</Nav.Link>
                         <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Fan Letter</Nav.Link>
+                        <Nav.Link href="https://weverse.io/" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Goods</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
