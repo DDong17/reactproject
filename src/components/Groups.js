@@ -38,7 +38,7 @@ export const Groups = () => {
                             <h2>
                                 Groups
                             </h2>
-                            <p>아무거나</p>
+                            
                             <Carousel responsive={responsive} infinite={true} className ="gruops-slider">
                                 <div className="item">
                                 <img src={BTS} alt="Image"/>

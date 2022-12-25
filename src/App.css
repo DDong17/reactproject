@@ -455,7 +455,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 25%;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -498,17 +498,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 55px 0px 0px 55px;
 }
 
-.nav-link#projects-tabs-tab-second {
+/* .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
+} */
 
-.nav-link#projects-tabs-tab-third {
+/* .nav-link#projects-tabs-tab-third {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+} */
+.nav-link#projects-tabs-tab-fourth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
 
-.proj-imgbx {
+
+/* .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
@@ -527,7 +532,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx:hover::before {
   height: 100%;
-}
+} */
 
 .proj-txtx {
   position: absolute;
@@ -557,7 +562,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
-}
+} 
 
 .background-image-right {
   top: 20%;

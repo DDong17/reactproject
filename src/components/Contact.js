@@ -48,7 +48,7 @@ return (
         
         <Container>
             <Row className="align-items-center">
-                <h2>Email</h2>
+                <h2>Fan Letter</h2>
                 <Col md={6}>
                     <img src={contactImg} alt="Contact Us" />
                 </Col>

@@ -10,7 +10,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["BTS", "BLACK PINK", "NewJeans","(G)I-DLE"];
     const period = 2000;
 
     useEffect(() => {
@@ -51,8 +51,8 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my FanPage</span>
-                        <h1>{`Hi I'm webcoded `}<span className="wrap">{text}</span></h1>
-                        <p>여기다가 여러가지 뭐 대충 설명할꺼 설명</p>
+                        <h1>{`KPOP GROUP `}<span className="wrap">{text}</span></h1>
+                        
                         <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
