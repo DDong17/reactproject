@@ -6,7 +6,7 @@ export const ProjectCard = ({title,description,imgUrl}) =>{
             <div className="proj-imgbx">
                 {/* <img src={imgUrl}/> */}
                 <iframe width="435" height="315" src={imgUrl} title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen" >
                 </iframe>
                 <div className="proj-txtx">
                     <h4>{title}</h4>
