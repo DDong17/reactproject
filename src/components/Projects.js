@@ -96,7 +96,7 @@ export const Projects = () => {
         {
             // title: "Business Startup",
             // description: "Design & Development",
-            imgUrl: "https://www.youtube.com/embed/x8RIixqumUc",
+            imgUrl: "https://www.youtube.com/embed/_ZAgIHmHLdc",
         },
         {
             // title: "Business Startup",
